@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/tv_markupTimeString"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="06-29 16:00:00"
+                android:textColor="#ff7e7e7e"
+                android:textSize="@dimen/textsize11" />
+
+            <TextView
+                android:singleLine="true"
+                android:id = "@+id/tv_nickname"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="嗯哼嗯哼"
+                android:textColor="#ff888787"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_addprice_self"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp">
+            <TextView
+                android:id="@+id/tv_payPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出价：￥3900"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize14"
+                />
+            <LinearLayout
+                android:id="@+id/ll_hongbao"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize14"
+                    />
+
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/hongb"/>
+
+                <TextView
+                    android:id="@+id/tv_brokerage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize14"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="45dp"
+        android:layout_height="47dp">
+
+        <com.gcssloop.widget.RCImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/icon_tx_default"
+            app:clip_background="true"
+            app:round_as_circle="true" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_hg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_hg"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

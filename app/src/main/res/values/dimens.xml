@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name ="textsize36">36dp</dimen>
+    <dimen name ="textsize30">30dp</dimen>
+    <dimen name ="textsize25">25dp</dimen>
+    <dimen name ="textsize24">24dp</dimen>
+    <dimen name ="textsize22">22dp</dimen>
+    <dimen name ="textsize20">20dp</dimen>
+    <dimen name ="textsize19">19dp</dimen>
+    <dimen name ="textsize18">18dp</dimen>
+    <dimen name ="textsize17">17dp</dimen>
+    <dimen name ="textsize16">16dp</dimen>
+    <dimen name ="textsize15">15dp</dimen>
+    <dimen name ="textsize14">14dp</dimen>
+    <dimen name ="textsize13">13dp</dimen>
+    <dimen name ="textsize12">12dp</dimen>
+    <dimen name ="textsize11">11dp</dimen>
+    <dimen name ="textsize10">10dp</dimen>
+    <dimen name ="textsize9">9dp</dimen>
+    <dimen name ="textsize8">8dp</dimen>
+
+    <dimen name ="item_height">44dp</dimen>
+
+</resources>

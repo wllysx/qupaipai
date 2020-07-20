@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_corner_white"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_consignee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="张三"
+            android:textColor="#ff282828"
+            android:textSize="@dimen/textsize15" />
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="187****4928"
+            android:textColor="#ff282828"
+            android:textSize="@dimen/textsize14" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:lineSpacingExtra="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="浙江省-杭州市-西湖区  蒋村街道 文一西路99号"
+        android:textColor="#ff686868"
+        android:textSize="@dimen/textsize13" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_default_address"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@null"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="false"
+                android:drawableLeft="@drawable/checkbox_pay"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设为默认地址"
+                android:textColor="#ff6f6f6f"
+                android:textSize="@dimen/textsize12"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_marginRight="2dp"
+            android:id="@+id/tv_edit"
+            android:drawableLeft="@mipmap/shdz_bj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textColor="#ff414141"
+            android:textSize="@dimen/textsize13"
+            android:padding="10dp"
+            android:drawablePadding="5dp"
+            />
+        <TextView
+            android:id="@+id/tv_delete"
+            android:drawableLeft="@mipmap/shdz_sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textColor="#ff414141"
+            android:textSize="@dimen/textsize13"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="5dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

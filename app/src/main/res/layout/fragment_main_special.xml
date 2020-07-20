@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/iscur"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/iscur">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:src="@mipmap/main_logo" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize16"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:src="@mipmap/icon_main_message" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.liaoinstan.springview.widget.SpringView
+                android:id="@+id/springview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/iscur">
+
+                <com.qupp.client.utils.view.headerviewpager.HeaderViewPager
+                    android:id="@+id/scrollableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_main"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_topview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!--app:banner_layout="@layout/banner_custom_viewpager"-->
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="175dp"
+                            android:background="@color/white">
+
+                            <com.qupp.client.utils.view.ResizableImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/banner_bj" />
+
+                            <com.youth.banner.Banner
+                                android:id="@+id/banner"
+                                android:layout_width="match_parent"
+                                android:layout_height="175dp"
+                                android:layout_marginTop="5dp"
+                                app:indicator_drawable_selected="@drawable/bg_circle_vp_select"
+                                app:indicator_drawable_unselected="@drawable/bg_circle_vp_unselect"
+                                app:indicator_height="6dp"
+                                app:indicator_margin="4dp"
+                                app:indicator_width="6dp" />
+
+                            <LinearLayout
+                                android:id="@+id/guide_ll_point"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:paddingBottom="10dp" />
+                        </RelativeLayout>
+
+                        <!--展示类别-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            >
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/mRecyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:overScrollMode="never"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/mRecyclerView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:overScrollMode="never"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                />
+
+                        </LinearLayout>
+
+                        <!--热门活动-->
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:paddingTop="10dp"
+                            android:id="@+id/ll_action"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:gravity="center_vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="15dp"
+                                android:paddingBottom="12dp">
+
+                                <ImageView
+                                    android:src="@mipmap/icon_hot1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="7dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="热门活动"
+                                    android:textColor="@color/textcolor7"
+                                    android:textSize="@dimen/textsize14" />
+
+                                <TextView
+                                    android:id="@+id/tv_more"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableRight="@mipmap/jr"
+                                    android:drawablePadding="5dp"
+                                    android:text="查看更多"
+                                    android:textColor="#ff9e9e9e"
+                                    android:textSize="@dimen/textsize12" />
+
+                            </LinearLayout>
+
+                            <!--小banner-->
+                            <com.youth.banner.Banner
+                                android:id="@+id/banner1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="3dp"
+                                />
+
+                            <LinearLayout
+                                android:id="@+id/guide_ll_point1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="8dp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                    <include layout="@layout/tablayout_mian_time" />
+
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_main" />
+                </com.qupp.client.utils.view.headerviewpager.HeaderViewPager>
+
+            </com.liaoinstan.springview.widget.SpringView>
+
+            <ImageView
+                android:id="@+id/iv_totop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:src="@mipmap/icon_totop"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

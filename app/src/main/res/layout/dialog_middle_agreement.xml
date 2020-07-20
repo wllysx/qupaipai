@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_corner_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="23dp"
+            android:text="温馨提示"
+            android:textColor="@color/dialogtitle"
+            android:textSize="@dimen/textsize18" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+        <TextView
+            android:lineSpacingExtra="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="亲爱的用户，感谢您信任并使用趣拍拍！"/>
+        <!--1-->
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginRight="5dp"
+                android:textColor="#868787"
+                android:textSize="@dimen/textsize13"
+                android:text="1."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_dialog_content"
+                android:lineSpacingExtra="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我们尊重并保护您的个人信息，并在《趣拍拍用户协议》详情说明了相关事项；"/>
+        </LinearLayout>
+        <!--2-->
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginRight="5dp"
+                android:textColor="#868787"
+                android:textSize="@dimen/textsize13"
+                android:text="2."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:lineSpacingExtra="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在您使用趣拍拍时，我们会遵循隐私政策不泄露用户信息；"/>
+        </LinearLayout>
+        <!--3-->
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginRight="5dp"
+                android:textColor="#868787"
+                android:textSize="@dimen/textsize13"
+                android:text="3."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:lineSpacingExtra="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未经您授权同意，我们不会将上述信息共享给第三方或用于您未授权的其他用途。"/>
+        </LinearLayout>
+        <!--4-->
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginRight="5dp"
+                android:textColor="#868787"
+                android:textSize="@dimen/textsize13"
+                android:text="4."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:lineSpacingExtra="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请您在使用前仔细阅读并充分理解相关条款。"/>
+        </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/dialogcancel"
+                android:textSize="@dimen/textsize16" />
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/line" />
+
+            <TextView
+                android:id="@+id/tv_sure"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/iscur"
+                android:textSize="@dimen/textsize16" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

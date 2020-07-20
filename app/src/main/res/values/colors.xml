@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#DD0000</color>
+
+    <color name="iscur">#DD0000</color>
+    <color name="bg_main">#f5f5f6</color>
+    <color name="bg_main1">#ededee</color>
+    <color name="login_line">#dddddd</color>
+    <color name="bg_main2">#eeeeee</color>
+    <color name="bg_main3">#f1f1f1</color>
+    <color name="transparency">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="texttitle">#090909</color>
+    <color name="dialogtitle">#343434</color>
+    <color name="dialogcontent">#868787</color>
+    <color name="dialogcancel">#676767</color>
+
+    <color name="textcolor0">#222222</color>
+    <color name="textcolor1">#232323</color>
+    <color name="textcolor2">#666666</color>
+    <color name="textcolor3">#787878</color>
+    <color name="textcolor4">#7c7c7c</color>
+    <color name="textcolor5">#2c2c2c</color>
+    <color name="textcolor6">#6f6f6f</color>
+    <color name="textcolor7">#333333</color>
+    <color name="textcolor8">#7b7b7c</color>
+    <color name="textcolor9">#828181</color>
+    <color name="textcolor10">#262626</color>
+    <color name="textcolor11">#777777</color>
+    <color name="textcolor12">#424242</color>
+    <color name="textcolor13">#2E2E2E</color>
+    <color name="textcolor14">#7f8080</color>
+    <color name="textcolor15">#605f5f</color>
+    <color name="textcolor16">#5f5f5f</color>
+    <color name="textcolor17">#636363</color>
+    <color name="textcolor18">#999999</color>
+    <color name="textcolor19">#a7a7a8</color>
+    <color name="textcolor20">#5e5e5e</color>
+    <color name="textcolor21">#747474</color>
+    <color name="textcolor22">#515050</color>
+    <color name="textcolor23">#5a5a5a</color>
+    <color name="textcolor24">#9B9B9B</color>
+    <color name="textcolor25">#8a8b8b</color>
+
+    <color name="textcolor26">#282828</color>
+    <color name="textcolor27">#979797</color>
+    <color name="textcolor28">#1c1b20</color>
+    <color name="textcolor29">#545454</color>
+    <color name="textcolor30">#3d3d3d</color>
+    <color name="textcolor31">#6e6e6e</color>
+    <color name="textcolor32">#B6B5B5</color>
+    <color name="textcolor33">#B3B3B3</color>
+
+
+    <color name="yellow">#c1924c</color>
+    <color name="yellowend">#E49725</color>
+    <color name="yellow1">#C09A61</color>
+    <color name="yellow2">#BA945B</color>
+    <color name="yellow3">#966826</color>
+    <color name="yellow4">#bc7e07</color>
+    <color name="yellow5">#d38b01</color>
+    <color name="yellowDrak">#A97C37</color>
+    <color name="yellowDrak1">#865535</color>
+    <color name="yellowDrak2">#8c5f0e</color>
+    <color name="yellowDrak3">#ff654202</color>
+    <color name="yellow6">#ffaf5c</color>
+
+
+    <color name="red">#DD0000</color>
+    <color name="red1">#DD0000</color>
+    <color name="red2">#DD0000</color>
+
+
+    <color name="blue">#4e6c96</color>
+    <color name="blue1">#3b5f82</color>
+
+
+    <color name="line">#f5f5f6</color>
+    <color name="line_division">#D7D7D8</color>
+
+</resources>

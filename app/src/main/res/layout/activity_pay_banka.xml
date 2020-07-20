@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_item" />
+
+        <LinearLayout
+            android:background="@color/bg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize12" />
+
+
+            <TextView
+                android:id="@+id/tv_wenti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/bank_wenhao"
+                android:drawablePadding="4dp"
+                android:text="常见问题"
+                android:textColor="#ff2872e2"
+                android:textSize="@dimen/textsize12" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="60dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付金额 (元)"
+                android:textColor="#ff626262"
+                android:textSize="@dimen/textsize14"
+                />
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6455.02"
+                android:textColor="#ff090909"
+                android:textSize="@dimen/textsize24"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_main" />
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="当前支付金额"
+                android:textColor="#ff626262"
+                android:textSize="@dimen/textsize15"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/tv_amount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6455.02"
+                android:textColor="#ff090909"
+                android:textSize="@dimen/textsize15"
+                />
+        </LinearLayout>
+
+
+
+        <!--支付方式-->
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="支付方式"
+                android:textColor="#1c1b20"
+                android:textSize="@dimen/textsize15" />
+
+            <TextView
+                android:id="@+id/tv_bankName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="招商银行 (4546)"
+                android:textColor="#ff262626"
+                android:textSize="@dimen/textsize15"
+                />
+            <TextView
+                android:id="@+id/tv_cardtype1"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="借记卡"
+                android:textColor="#ffff8b00"
+                android:textSize="@dimen/textsize12"
+                android:background="@drawable/bg_card_tyep"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_cardtype2"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信用卡"
+                android:textColor="#ffff8b00"
+                android:textSize="@dimen/textsize12"
+                android:background="@drawable/bg_card_tyep1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_main" />
+
+        <!--短信验证-->
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="短信验证"
+                android:textColor="#1c1b20"
+                android:textSize="@dimen/textsize15" />
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入收到的短信验证"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textColor="#111111"
+                android:textColorHint="#BEBEBE"
+                android:textSize="@dimen/textsize15" />
+
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/iscur"
+                android:textSize="@dimen/textsize13"
+                android:text="获取"
+               />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <!--下一步-->
+        <TextView
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_login_enable"
+            android:gravity="center"
+            android:text="立即支付 ¥6455.02"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="45dp"
+            >
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值说明"
+            android:textColor="#99000000"
+            android:textSize="@dimen/textsize13"
+            android:gravity="center_horizontal"
+            android:drawableRight="@mipmap/txsm"
+            android:drawablePadding="5dp"
+            />
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

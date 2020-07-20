@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:paddingBottom="50dp"
+                android:id="@+id/contentfragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <fragment
+                android:id="@+id/id_below_menu"
+                android:name="com.qupp.client.ui.view.fragment.main.MenuBelowFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="BELOW" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

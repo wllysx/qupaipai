@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:id="@+id/ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:background="@mipmap/qiandao_bj"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="恭喜你签到成功"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/zsx_z" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="+"
+                    android:textColor="#fffef034"
+                    android:textSize="@dimen/textsize18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:minWidth="5dp"
+                    android:text="1"
+                    android:textColor="#fffef034"
+                    android:textSize="@dimen/textsize18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="积分"
+                    android:textColor="#fffef034"
+                    android:textSize="@dimen/textsize18"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/zsx_y" />
+
+            </LinearLayout>
+
+            <!--签到区-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_corner_white10">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:progressDrawable="@drawable/progress_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <!--第一天-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_signIntegral1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+1"
+                            android:textColor="@color/yellow6"
+                            android:textSize="@dimen/textsize12"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_sign1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@mipmap/jb_yqd" />
+
+                        <TextView
+                            android:id="@+id/tv_signName1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已签到"
+                            android:textColor="@color/yellow6"
+                            android:textSize="@dimen/textsize11" />
+
+                    </LinearLayout>
+                    <!--第二天-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_signIntegral2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+1"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize12"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_sign2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@mipmap/jb_yqd" />
+
+                        <TextView
+                            android:id="@+id/tv_signName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已签到"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize11" />
+
+                    </LinearLayout>
+
+                    <!--第三天-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_signIntegral3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+1"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize12"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_sign3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@mipmap/jb_yqd" />
+
+                        <TextView
+                            android:id="@+id/tv_signName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="今日签到"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize11" />
+
+                    </LinearLayout>
+
+
+                    <!--第四天-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_signIntegral4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+1"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize12"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_sign4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@mipmap/jb_wqd" />
+
+                        <TextView
+                            android:id="@+id/tv_signName4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已签到"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize11" />
+
+                    </LinearLayout>
+
+                    <!--第五天-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_signIntegral5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+1"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize12"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_sign5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@mipmap/jb_wqd" />
+
+                        <TextView
+                            android:id="@+id/tv_signName5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已签到"
+                            android:textColor="#ffbbbbbb"
+                            android:textSize="@dimen/textsize11" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="已连续签到0天"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize13" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/guanbi" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/iv_guang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/guang" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/iv_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qiandao" />
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

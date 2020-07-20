@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <FrameLayout
+                    android:id="@+id/back"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/fh"/>
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="13dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="13dp">
+
+                    <EditText
+                        android:id="@+id/et_search"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_edit_solidgraw"
+                        android:drawableLeft="@mipmap/sousuo"
+                        android:drawablePadding="10dp"
+                        android:hint="好物尽在商城"
+                        android:imeOptions="actionSearch"
+                        android:maxLength="20"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor7"
+                        android:textColorHint="#9f9e9e"
+                        android:textSize="@dimen/textsize14" />
+
+                    <TextView
+                        android:id="@+id/tv_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:text="搜索"
+                        android:textColor="@color/texttitle"
+                        android:textSize="@dimen/textsize14" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line"/>
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_hot"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="热门分类"
+                        android:drawableLeft="@mipmap/rmfl"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/textcolor7"
+                        android:textSize="@dimen/textsize14"
+                        />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:overScrollMode="never"
+                        android:id="@+id/rcv_hot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+                </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.liaoinstan.springview.widget.SpringView
+                    android:id="@+id/springview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <com.qupp.client.utils.waterfall.StaggeredGridView
+                        android:visibility="gone"
+                        android:background="@color/bg_main"
+                        android:scrollbars="none"
+                        app:item_margin="10dp"
+                        app:column_count="2"
+                        android:cacheColorHint="#00000000"
+                        android:id="@+id/mRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.liaoinstan.springview.widget.SpringView>
+                <include layout="@layout/default_type2" />
+            </FrameLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

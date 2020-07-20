@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main"
+            android:orientation="vertical">
+
+            <include layout="@layout/title_item" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--订单状态-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:background="@color/blue"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="17dp"
+                        android:paddingRight="17dp">
+
+                        <TextView
+                            android:id="@+id/tv_states"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="寄拍中"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize15" />
+
+                        <TextView
+                            android:id="@+id/tv_countdown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="距结束：56天12小时"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize13" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/consignee_message" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <include layout="@layout/commodity_message" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <include layout="@layout/commodityorder_message" />
+                    <!--说明-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:text="*说明：寄拍商品在规定时间内没有寄拍成功退还拍品"
+                        android:textColor="@color/textcolor19"
+                        android:textSize="@dimen/textsize11" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

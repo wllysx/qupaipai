@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <include layout="@layout/title_item"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line" />
+
+            <!--输入区域-->
+
+            <LinearLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="消息推送"
+                    android:textColor="@color/textcolor28"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textsize15"
+                    />
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content">
+                <com.qupp.client.utils.view.SwitchView
+                    android:id="@+id/swithview"
+                    android:layout_width="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    />
+                    <View
+                        android:id="@+id/v_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_main"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="若无法收到趣拍拍的通知，请在手机的“设置”中，开启对应的权限~"
+                android:textColor="#ff7f8080"
+                android:textSize="@dimen/textsize11" />
+            <TextView
+                android:id="@+id/tv_set"
+                android:background="@color/bg_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="立即去设置"
+                android:textColor="#ff0562b9"
+                android:textSize="@dimen/textsize13"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</FrameLayout>

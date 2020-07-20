@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textColor="#676767"
+        android:textSize="@dimen/textsize12"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="手机数码"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/bg_edit_solidgraw"
+
+        />
+</RelativeLayout>

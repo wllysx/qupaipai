@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_default"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="124dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/wdsc_zwsc" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_goshop"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_blue_line"
+        android:layout_width="93dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="去商城"
+        android:textColor="#ff317aed"
+        android:textSize="14sp"
+        />
+
+
+</LinearLayout>

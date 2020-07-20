@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qupp.client">
+
+
+    <!--友盟分享登录需要权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:name="com.qupp.client.MyApplication"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+      <!--  <meta-data
+            android:name="com.jyk.client.utils.glide.HttpsGlideModule"
+            android:value="GlideModule" />-->
+
+        <!-- 适配Android 7.0, 需要将下方的com.hyphenate.chatuidemo替换为你的app包名 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.qupp.client.utils.glide.OkHttpAppGlideModule"
+            android:value="AppGlideModule"/>
+
+        <!--适配全面屏-->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/styleSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data  android:host="com.jyk.client.open" android:scheme="app"/>
+            </intent-filter>
+        </activity>
+
+
+        <!--首页-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.qupp.client.ui.view.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--引导页-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.qupp.client.ui.view.activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--登录-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--密码登录-->
+
+      <!--登录绑定-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.login.LoginBindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+        <!--im测试-->
+
+
+        <!--积分商城-->
+        <!--商品详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.CommodityDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--积分商城搜索-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.ShopSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的收藏-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.ShouCangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--兑换规则-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.integral.IntegralGuizeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.order.MyOrderPaySuccess"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.H5Web"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+
+
+        <!--新 拍卖详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.NewCommodityDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.VipActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--新 vip拍卖详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.viproom.NewVipCommodityDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+        <!--支付-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.CommodityPay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--实名认证-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.Authentication"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--实名认证详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.AuthenticationDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--新人区-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.NewbleCommodityList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--兑换成功-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.CommodityPaySuccess"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--寄拍区 换购区-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.CheckDistrictActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--商城分类-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.ShopCommodityTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+
+
+
+        <!--我的寄拍-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.MyCheck"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--我的寄拍订单详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.MyCheckDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--我的订单（积分商城）-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.MyOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的订单（支付）-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.order.OrderPay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--我的订单详情（积分商城）-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.MyOrderDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+        <!--VIP店铺搜索-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.viproom.VipRoomListSearch"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--IP店铺主页-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.viproom.VipRoomDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--vip 商品详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.viproom.VipCommodityDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--我的模块-->
+        <!--设置-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的信息-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.MyDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--修改昵称-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.ChangeNickActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--邀请码-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.InviteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--账号安全-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.AccountSafeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--修改密码-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.ChangePassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--更换手机号-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.ChangePhoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--推送設置-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.PushActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--关于我们-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的余额-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.BalanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--充值-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.TopUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--充值记录-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.TopUpRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--提现-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.WithDrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--充值记录-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.WithDrawRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--绑定支付账号-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.BandPayAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--绑定支付宝账号-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.BandAliPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--设置密码验证-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.SetPasswordAActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--设置支付密码-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.SetPasswordBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--余额-余额明细-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.BalanceDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--余额-余额明细更多-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.balance.BalanceDetailMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+
+        <!--我的积分-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.integral.IntegralActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的粉丝-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.friend.MyFriendActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的竞拍-->
+      <!--收货地址-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.MyAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--添加地址-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.MyAddressAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--分享保存到相冊-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.ShardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的-我的订单-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.order.OrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的-订单详情-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.order.OrderDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--首页-商品详情-->
+
+      <activity
+            android:name="com.qupp.client.ui.view.activity.main.ShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+        <!--首页-消息-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--分类商品列表-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.CommodityTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+       <!-- 用户须知-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.KnowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.customerservice.MoorWebCenter"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.customerservice.ContractWebCenter"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--物流信息-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.scoreshop.PhysicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的-分享好友-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.setting.ShardMineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--用户协议-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.login.KnowWeb"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <activity
+            android:name="com.qupp.client.ui.view.activity.test.StaggeredGridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+
+
+
+
+        <!--我的活动-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.myaction.MyActionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--我的活动订单-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.myaction.MyActionDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.ActionH5Web"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--话费充值-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.TelephoneRechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--话费充值记录-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.TelephoneRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--banner跳转通一个商品的拍卖列表-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.CommodityList"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--选择套餐-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.order.SelectMealActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--今日结拍-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.history.CommodityHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+        <!--话费充值成功-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.TelephoneRechargeSuccess"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--我的优惠券-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.coupon.MyCoupon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--选择优惠券-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.coupon.SelectCoupon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--优惠券指定商品列表-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.coupon.CommodityCoupon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+
+
+
+        <!--我的活动列表-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.MyActionListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--隐私政策-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.login.YinsiWeb"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--优惠券使用说明-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.mine.coupon.CouponGuizeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+        <!--充值使用说明-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.TelephoneGuizeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+        <!--通用规则h5 后期整理到一起-->
+        <activity
+            android:name="com.qupp.client.ui.view.activity.main.DefaultWeb"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_fade">
+        </activity>
+
+      <activity
+          android:name="com.qupp.client.ui.view.activity.scoreshop.FaddishActivity"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+
+        <!--版本升级-->
+
+      <!--新浪-->
+      <activity
+          android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+          android:configChanges="keyboardHidden|orientation"
+          android:theme="@android:style/Theme.Translucent.NoTitleBar"
+          android:exported="false"
+          >
+      </activity>
+      <activity android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+          android:configChanges="keyboardHidden|orientation"
+          android:exported="false"
+          android:windowSoftInputMode="adjustResize"
+          >
+
+      </activity>
+      <activity
+          android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+          android:launchMode="singleTask"
+          android:name="com.sina.weibo.sdk.share.WbShareTransActivity">
+        <intent-filter>
+          <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+          <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+      </activity>
+
+        <!--微信-->
+        <activity
+            android:name="com.qupp.client.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5d9039d04ca3579e3d000766">
+        </meta-data>
+
+        <!--微信支付-->
+        <activity
+            android:name="com.qupp.client.wxapi.WXPayEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="true"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wxb4ba3c02aa476ea1"/>
+            </intent-filter>
+
+        </activity>
+
+        <receiver
+            android:name="com.qupp.client.utils.pay.wxpay.AppRegister">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 为了使用 "通用跳转 SDK" 的能力，需要在你的 App 的 AndroidManifest.xml 中添加这一项 -->
+        <!-- 并合理设置 android:scheme 的值 -->
+        <activity android:name="com.alipay.sdk.app.AlipayResultActivity" tools:node="merge">
+            <intent-filter tools:node="replace">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="jykapp"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Since JCore2.0.0 Required SDK核心功能-->
+        <!-- 可配置android:process参数将Service放在其他进程中；android:enabled属性不能是false -->
+        <!-- 这个是自定义Service，要继承极光JCommonService，可以在更多手机平台上使得推送通道保持的更稳定 -->
+        <service android:name="com.qupp.client.receiver.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action" />
+            </intent-filter>
+        </service>
+
+        <!-- Required since 3.0.7 -->
+        <!-- 新的 tag/alias 接口结果返回需要开发者配置一个自定的广播 -->
+        <!-- 3.3.0开始所有事件将通过该类回调 -->
+        <!-- 该广播需要继承 JPush 提供的 JPushMessageReceiver 类, 并如下新增一个 Intent-Filter -->
+        <receiver
+            android:name="com.qupp.client.receiver.PushMessageReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+                <category android:name="com.serve.life" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 您从百度网站获取的APP KEY，根据实际您的APP申请的APP_KEY进行修改 -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="" />
+
+        <!-- 渠道商编号 -->
+      <!--  <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="yihaobao" />
+-->
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="false" />
+
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+      <!--钱包-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.balance.WalletActivity"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+
+
+      <!--3.7银行卡-->
+      <!--我的银行卡-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.MyBankCard"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--添加银行卡1-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.AddBankA"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--添加银行卡2-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.AddBankB"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--银行卡详情-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.MyBankCardDetails"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--解绑银行卡-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.UnBandCard"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--平安支付1-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.pinganpay.PayA"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--平安支付2-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.pinganpay.PayB"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+      <!--支付卡绑定-->
+      <activity
+          android:name="com.qupp.client.ui.view.activity.mine.pinganbank.AddBankC"
+          android:screenOrientation="portrait"
+          android:theme="@style/Anim_fade">
+      </activity>
+
+
+    </application>
+
+</manifest>

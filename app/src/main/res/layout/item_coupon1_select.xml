@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_graw_5"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@+id/tv_showSymbol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¥"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize14"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_showPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1000"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize24"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_showRemark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layerType="software"
+                    android:text="以内免单"
+                    android:textColor="#C8C8C8"
+                    android:textSize="@dimen/textsize12" />
+            </LinearLayout>
+            <!--虚线-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_s1" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/line1"
+                    android:layerType="software" />
+
+
+
+            </LinearLayout>
+            <!--右-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_couponShowName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="新人免单券"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/textsize16"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="·"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_useTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2018.12.06 - 2018.12.11"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="·"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_useLimit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:text="仅用于工艺品,瑰丽珠宝分类"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="·"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="不可与其他优惠叠加使用"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="·"
+                        android:textColor="#ff939393"
+                        android:textSize="@dimen/textsize10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="不可与其他优惠叠加使用"
+                        android:textColor="#C8C8C8"
+                        android:textSize="@dimen/textsize10" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/horizontal_dash1"/>
+        <TextView
+            android:id="@+id/tv_cantUseRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单价格超过优惠卷免单金额/订单超过优惠卷限额"
+            android:textColor="#ffff9e0e"
+            android:textSize="@dimen/textsize10"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="6dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginLeft="13dp"
+            />
+
+        <ImageView
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_x1" />
+    </LinearLayout>
+
+
+</LinearLayout>

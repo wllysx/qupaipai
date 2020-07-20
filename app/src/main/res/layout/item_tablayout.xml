@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:00"
+            android:textColor="@color/textcolor31"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="1dp"
+            android:text="已结束"
+            android:textColor="@color/textcolor31"
+            android:textSize="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:background="@color/bg_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@mipmap/msyg"/>
+    </LinearLayout>
+
+</FrameLayout>

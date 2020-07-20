@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.qupp.client.utils.view.MRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.gcssloop.widget.RCImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@color/line"
+                    app:round_corner_top_left="7dp"
+                    app:round_corner_top_right="7dp" />
+
+            </com.qupp.client.utils.view.MRelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <!--标题-->
+                <TextView
+                    android:id="@+id/tv_goodsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:singleLine="true"
+                    android:text="18k金镶天然黄水晶戒指..."
+                    android:textColor="@color/textcolor1"
+                    android:textSize="@dimen/textsize13" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_pricetype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="成交价"
+                        android:textColor="#ff757575"
+                        android:textSize="@dimen/textsize12" />
+
+                    <TextView
+                        android:id="@+id/tv_transactionPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="￥360"
+                        android:textColor="@color/iscur"
+                        android:textSize="@dimen/textsize14" />
+
+                    <TextView
+                        android:id="@+id/tv_markupNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="42次出价"
+                        android:textColor="#ff757575"
+                        android:textSize="@dimen/textsize10"
+                         />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="结拍时间:12:30:00"
+                        android:textColor="#ff979797"
+                        android:textSize="@dimen/textsize11"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

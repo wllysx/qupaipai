@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.qupp.client.utils.view.ObservableScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:background="@color/white"
+                app:indicator_drawable_selected="@drawable/bg_circle_vp_select"
+                app:indicator_drawable_unselected="@drawable/bg_circle_vp_unselect"
+                app:indicator_margin="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <!--基本信息-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp">
+
+                        <TextView
+                            android:id="@+id/tv_goodsName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/textcolor0"
+                            android:textSize="@dimen/textsize18"
+                            tools:text="紫泥 半手工 紫砂壶茶具 " />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/iscur"
+                                android:textSize="@dimen/textsize15"
+                                tools:text="21000积分" />
+
+                            <TextView
+                                android:id="@+id/tv_integral"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#ffe49725"
+                                android:textSize="@dimen/textsize13"
+                                tools:text="+￥1000" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_guzhi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="市场价："
+                                android:textColor="@color/textcolor6"
+                                android:textSize="@dimen/textsize13" />
+
+                            <TextView
+                                android:id="@+id/tv_assessPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="60dp"
+                                android:textColor="@color/textcolor6"
+                                android:textSize="@dimen/textsize13"
+                                tools:text="￥24000" />
+
+                            <TextView
+                                android:id="@+id/tv_kucun"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="库存：0件"
+                                android:textColor="@color/textcolor6"
+                                android:textSize="@dimen/textsize13" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <!--收藏-->
+                    <LinearLayout
+                        android:id="@+id/ll_shoucang"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/iv_shoucang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:src="@mipmap/shoucang" />
+
+                        <TextView
+                            android:id="@+id/tv_shoucang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="收藏"
+                            android:textColor="#6f6f6f"
+                            android:textSize="@dimen/textsize12" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/bg_main1" />
+                <!--商品详情-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                    <com.qupp.client.utils.view.ResizableImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@mipmap/spxq_zsw" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:text="拍品详情"
+                        android:textColor="@color/textcolor5"
+                        android:textSize="@dimen/textsize14" />
+
+                    <com.qupp.client.utils.view.ResizableImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@mipmap/spxq_zsw2" />
+                </LinearLayout>
+                <!-- <com.jyk.client.utils.view.ResizableImageView
+                     android:id="@+id/iv_longimage"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:src="@mipmap/test1"/>-->
+                <TextView
+                    android:id="@+id/tv_longimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="300dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.qupp.client.utils.view.ObservableScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_layout_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/title_item_transparency" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_layout_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:background="@color/white">
+
+        <include layout="@layout/title_item" />
+    </FrameLayout>
+
+    <!--底部-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+       >
+
+        <LinearLayout
+            android:id="@+id/ll_shard"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/spxq_fx"
+                android:drawablePadding="5dp"
+                android:text="分享"
+                android:textColor="@color/iscur"
+                android:textSize="@dimen/textsize11" />
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="立即购买"
+            android:textColor="@color/white"
+            android:background="@color/iscur"
+            android:textSize="@dimen/textsize18" />
+    </LinearLayout>
+
+
+</RelativeLayout>

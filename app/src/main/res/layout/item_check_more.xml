@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rlTimeline"
+        android:layout_width="32dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_topline"
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="#B5B5B5" />
+
+        <TextView
+            android:id="@+id/tv_potin"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_below="@id/tv_topline"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/timelline_dot_normal" />
+
+        <TextView
+            android:id="@+id/tv_endline"
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/tv_potin"
+            android:layout_centerHorizontal="true"
+            android:background="#B5B5B5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="6dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快件在 深圳 ,准备送往下一站 深圳集散中心 [深圳市]"
+            android:textColor="#4E4E4E"
+            android:textSize="@dimen/textsize14" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_time"
+            android:layout_below="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014/06/24 20:55:28"
+            android:textColor="#8E8E8E"
+            android:textSize="@dimen/textsize13" />
+    </RelativeLayout>
+</LinearLayout>

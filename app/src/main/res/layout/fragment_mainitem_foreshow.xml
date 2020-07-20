@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:paddingLeft="34dp"
+        android:paddingRight="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_tab1"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="今日"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize13"
+            android:background="@drawable/bg_main_tab_selected"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab2"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="明日"
+            android:textColor="#e0b665"
+            android:textSize="@dimen/textsize13"
+            android:background="@drawable/bg_main_tab_selected_un"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab3"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="后日"
+            android:textColor="#e0b665"
+            android:textSize="@dimen/textsize13"
+            android:background="@drawable/bg_main_tab_selected_un"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:overScrollMode="never"
+        android:padding="15dp"
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp" />
+    </com.liaoinstan.springview.widget.SpringView>
+</LinearLayout>

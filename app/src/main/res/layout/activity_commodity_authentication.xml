@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main"
+            android:orientation="vertical">
+
+            <include layout="@layout/title_item" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line" />
+
+
+            <!--信息输入-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="姓名"
+                        android:textColor="@color/textcolor12"
+                        android:textSize="@dimen/textsize15" />
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请输入姓名"
+                        android:singleLine="true"
+                        android:maxLength="10"
+                        android:textColor="@color/textcolor13"
+                        android:textSize="@dimen/textsize14" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/iv_delete"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@mipmap/icon_edit_delete" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line" />
+
+                <LinearLayout
+                    android:id="@+id/ll_idcardtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="证件类型"
+                        android:textColor="@color/textcolor12"
+                        android:textSize="@dimen/textsize15" />
+
+                    <TextView
+                        android:id="@+id/tv_idcardtype"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="大陆身份证"
+                        android:textColor="@color/textcolor13"
+                        android:textSize="@dimen/textsize14" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@mipmap/icon_right" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="证件号"
+                        android:textColor="@color/textcolor12"
+                        android:textSize="@dimen/textsize15" />
+
+                    <EditText
+                        android:id="@+id/et_idcard"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:hint="请输入证件号"
+                        android:maxLength="18"
+                        android:singleLine="true"
+                        android:textColor="@color/textcolor13"
+                        android:textSize="@dimen/textsize14" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/iv_about"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/icon_about" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="*以上信息仅用于身份验证"
+                android:textColor="@color/textcolor14"
+                android:textSize="@dimen/textsize11" />
+
+            <!--绑定-->
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/bg_submit_23"
+                android:gravity="center"
+                android:text="绑定"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize16" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_suo"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账户安全保障中"
+                    android:textColor="@color/textcolor15"
+                    android:textSize="@dimen/textsize11"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

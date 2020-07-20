@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_main"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="请确保体现卡不是正在使用"
+                android:textColor="#ffa3a3a4"
+                android:textSize="@dimen/textsize12" />
+
+
+            <TextView
+                android:id="@+id/tv_wenti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/bank_wenhao"
+                android:drawablePadding="4dp"
+                android:text="常见问题"
+                android:textColor="#ff2872e2"
+                android:textSize="@dimen/textsize12" />
+
+
+        </LinearLayout>
+
+
+
+        <!--名字-->
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:text="李荣浩"
+            android:textColor="#ff262626"
+            android:textSize="@dimen/textsize15"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/login_line" />
+
+        <!--银行-->
+
+        <TextView
+            android:id="@+id/tv_bankname"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:text="招商银行（4546）"
+            android:textColor="#ff262626"
+            android:textSize="@dimen/textsize15"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/login_line" />
+
+
+        <!--下一步-->
+        <TextView
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_login_enable"
+            android:gravity="center"
+            android:text="确定解绑"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize16" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="22dp"
+        android:paddingTop="16dp"
+        android:background="@drawable/bg_corner_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="确定解绑"
+            android:textColor="#ff262626"
+            android:textSize="@dimen/textsize16"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            tools:text="确定解除绑定招商银行（4546）账户，解除绑定后若改卡有正在提现的金额，则提现撤销，返余额。"
+            android:textColor="#ff626262"
+            android:textSize="@dimen/textsize14"
+            />
+
+
+
+            <TextView
+                android:id="@+id/tv_sure"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_iscur_3"
+                android:textSize="@dimen/textsize16" />
+
+    </LinearLayout>
+</LinearLayout>

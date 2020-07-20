@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg_main">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/title_item" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/default_type3" />
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <com.qupp.client.utils.waterfall.StaggeredGridView
+            android:scrollbars="none"
+            app:item_margin="10dp"
+            app:column_count="2"
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+      <!--  <GridView
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:padding="15dp"
+            android:numColumns ="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ffff0000"
+            android:dividerHeight="10dp"
+            />-->
+    </com.liaoinstan.springview.widget.SpringView>
+    </FrameLayout>
+
+
+
+</LinearLayout>

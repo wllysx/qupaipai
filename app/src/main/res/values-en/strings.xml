@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">趣拍拍</string>
+
+    <string name="main_tab1">首页</string>
+    <string name="main_tab2">商城</string>
+    <string name="main_tab3">历史</string>
+    <string name="main_tab4">我的</string>
+    <string name="main_vip">Vip店铺</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="qd_gz">1. 登录用户每天可签到1次,并获得积分,可累计；
+\n2. 连续签到天数越长,获得的积分越多。若连续签到中断,则重新计算天数。
+\n3. 所有签到获得的积分,可以在换购区兑换商品；
+\n4. 如果出现用户违规行为,趣拍拍有权收回违规获得的积分。
+    </string>
+    <string name="pay_no">系统升级维护中，请稍后重试</string>
+</resources>

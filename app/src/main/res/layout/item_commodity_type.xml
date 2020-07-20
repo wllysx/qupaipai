@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:src="@color/line"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工艺品"
+        android:lines="1"
+        android:textColor="#414040"
+        android:textSize="@dimen/textsize12"
+        />
+
+</LinearLayout>

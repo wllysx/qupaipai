@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@mipmap/jrrp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:overScrollMode="never"
+            android:id="@+id/tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            />
+</LinearLayout>

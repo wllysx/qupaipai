@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_item" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_white_graw"
+            android:paddingLeft="50dp"
+            android:paddingTop="40dp"
+            android:paddingRight="50dp">
+
+            <!--截图组件-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="0dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_saveview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_corner_white"
+                android:orientation="vertical">
+
+                <com.qupp.client.utils.view.MRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.gcssloop.widget.RCImageView
+                        android:id="@+id/iv_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:round_corner_top_left="6dp"
+                        app:round_corner_top_right="6dp" />
+                </com.qupp.client.utils.view.MRelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_goodsName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:paddingLeft="14dp"
+                    android:paddingTop="14dp"
+                    android:paddingRight="14dp"
+                    android:paddingBottom="5dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    tools:text="商品名称商品名称商品名称商品商品名称商品名称"
+                    android:textColor="#ff222222"
+                    android:textSize="@dimen/textsize17" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom">
+
+                        <TextView
+                            android:id="@+id/tv_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="￥2550"
+                            android:textColor="@color/iscur"
+                            android:textSize="@dimen/textsize17" />
+
+                        <TextView
+                            android:id="@+id/tv_integral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text=" +1000积分"
+                            android:textColor="@color/yellow"
+                            android:textSize="@dimen/textsize13" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/tv_code"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:src="@color/line" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="长按识别二维码"
+                            android:textColor="#ff6f6f6f"
+                            android:textSize="@dimen/textsize8" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--截图组件-->
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_marginTop="25dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize16"
+                android:gravity="center"
+                android:background="@drawable/bg_login_enable"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

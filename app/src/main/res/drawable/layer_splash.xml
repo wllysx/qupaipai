@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 整体的背景颜色 -->
+    <item>
+        <color android:color="@color/white" />
+    </item>
+    <!-- 顶部 -->
+    <item
+        android:top="280dp"
+        >
+        <bitmap
+            android:gravity="top|center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@mipmap/jiayikou" />
+    </item>
+    <!-- 底部 -->
+    <item android:bottom="55dp">
+        <bitmap   android:gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@mipmap/logo" />
+    </item>
+
+
+    <item
+        >
+        <bitmap
+            android:gravity="top"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bj" />
+    </item>
+</layer-list>

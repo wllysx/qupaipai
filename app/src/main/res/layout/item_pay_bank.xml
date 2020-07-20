@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/checkboxbank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@null"
+            android:checked="false"
+            android:clickable="false"
+            android:drawableLeft="@drawable/checkbox_pay" />
+
+        <ImageView
+            android:id="@+id/iv_logoUrl"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:src="@mipmap/zffs_zfb" />
+
+        <TextView
+            android:id="@+id/tv_bankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="招商银行"
+            android:textColor="@color/textcolor7"
+            android:textSize="@dimen/textsize14" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_cardtype1"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="借记卡"
+            android:textColor="#ffff8b00"
+            android:textSize="@dimen/textsize10"
+            android:background="@drawable/bg_card_tyep"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_cardtype2"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信用卡"
+            android:textColor="@color/iscur"
+            android:textSize="@dimen/textsize10"
+            android:background="@drawable/bg_card_tyep1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_main">
+
+
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main"
+            android:orientation="vertical">
+
+            <include layout="@layout/title_item" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--订单状态-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:background="@color/iscur"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="17dp"
+                        android:paddingRight="17dp">
+
+                        <TextView
+                            android:id="@+id/tv_states"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="待支付"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize15" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:lineSpacingExtra="5dp"
+                            android:id="@+id/tv_countdown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="剩余支付时间"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize13" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_states"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/consignee_message" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <include layout="@layout/order_message" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+                    <!--礼包-->
+                    <include layout="@layout/order_meal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <include layout="@layout/commodityorder_message2" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_label"
+                        android:paddingLeft="14dp"
+                        android:paddingTop="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*说明:规定时间内没有支付货款不予退还保证金"
+                        android:textColor="#ffb5b5b6"
+                        android:textSize="@dimen/textsize11"
+                        />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <!--底部组件-->
+            <!--待付款状态-->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_gopay"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/tv_shifukuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="实付款："
+                    android:textColor="@color/textcolor20"
+                    android:textSize="@dimen/textsize15"
+                    />
+                <TextView
+                    android:id="@+id/tv_endprice"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="￥6700"
+                    android:textColor="@color/red2"
+                    android:textSize="@dimen/textsize15"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_gopay"
+                    android:layout_width="88dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="去支付"
+                    android:textColor="@color/red2"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/bg_order_submit_red"
+                    />
+
+            </LinearLayout>
+            <!--待发货状态-->
+
+            <!--待收货状态-->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_take"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical|right">
+
+                <TextView
+                    android:layout_marginRight="13dp"
+                    android:id="@+id/tv_seelogistics"
+                    android:layout_width="88dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="查看物流"
+                    android:textColor="@color/textcolor4"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/bg_order_submit_graw"
+                    />
+                <TextView
+                    android:id="@+id/tv_submittake"
+                    android:layout_width="88dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="确认收货"
+                    android:textColor="@color/red2"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/bg_order_submit_red"
+                    />
+
+            </LinearLayout>
+            <!--已完成状态-->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_finish"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical|right">
+
+                <TextView
+                    android:id="@+id/tv_seelogistics1"
+                    android:layout_width="88dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="查看物流"
+                    android:textColor="@color/textcolor4"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/bg_order_submit_graw"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

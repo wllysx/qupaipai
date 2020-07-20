@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:background="@drawable/bg_loading"
+        android:layout_width="120dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+      <!--  <ProgressBar
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:indeterminateDrawable="@drawable/anim_loading" />-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/loading" />
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:id="@+id/id_tv_loadingmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize12"
+            android:textColor="@color/line"
+            android:text="加载中." />
+    </LinearLayout>
+
+</LinearLayout>

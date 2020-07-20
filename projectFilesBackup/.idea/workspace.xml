@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa6019dc-07b9-4cdb-ae4c-ca535053de3f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jyk_android_dz" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="tinker-support" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/CommodityPay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3840">
+              <caret line="299" selection-start-line="285" selection-start-column="7" selection-end-line="299" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderPay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12528">
+              <caret line="848" column="46" selection-start-line="848" selection-start-column="46" selection-end-line="848" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1312">
+              <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayTypeDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_pay1.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1568">
+              <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/ApiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5008">
+              <caret line="339" column="40" selection-start-line="339" selection-start-column="27" selection-end-line="339" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_order_pay.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3584">
+              <caret line="224" column="70" selection-start-line="224" selection-start-column="70" selection-end-line="224" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_commodity_pay.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9520">
+              <caret line="636" column="56" selection-start-line="628" selection-start-column="22" selection-end-line="636" selection-end-column="56" />
+              <folding>
+                <element signature="e#25908#28166#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14560">
+              <caret line="978" column="41" selection-start-line="978" selection-start-column="41" selection-end-line="978" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toast</find>
+      <find>EventBus</find>
+      <find>submi</find>
+      <find>bt_submit</find>
+      <find>tv_sure</find>
+      <find>withdrawbind</find>
+      <find>rechargeBank</find>
+      <find>areas</find>
+      <find>list</find>
+      <find>listview</find>
+      <find>blowBankAdapter</find>
+      <find>getData</find>
+      <find>bankId</find>
+      <find>goPayforWx</find>
+      <find>show</find>
+      <find>priceType.equals(&quot;1&quot;)</find>
+      <find>llPaytype</find>
+      <find>adapter</find>
+      <find>setonclick</find>
+      <find>.show</find>
+      <find>goPayforWxOrder</find>
+      <find>getdata</find>
+      <find>addprice</find>
+      <find>payScene</find>
+      <find>goPayBank</find>
+      <find>full</find>
+      <find>goPayBankOrder</find>
+      <find>onclick</find>
+      <find>dialog</find>
+      <find>orderorderPay</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\jyk_android_dz\app\src\main\java\com\jyk\client</dir>
+      <dir>D:\jyk_android_dz\app</dir>
+      <dir>D:\jyk_android_dz\app\src</dir>
+      <dir>D:\jyk_android_dz\app\src\main\res\layout</dir>
+      <dir>D:\jyk_android_dz</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\sxkey\key\debug.keystore" />
+    <option name="KEY_ALIAS" value="androiddebugkey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/commodityType1Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/CheckDistrictActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_headerview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyOrder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyCheck.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/main/NewCommodityDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/integral/IntegralActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/viproom/NewVipCommodityDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/GiftbagAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_pay_telephone.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayTelephoneDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_commodity_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_withdraw.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/WithdrawDialog.java" />
+        <option value="$PROJECT_DIR$/app/tinker-support.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/WalletAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/main/ShopActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/CommodityDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/MyOrderAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/ShopAdapter1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/fragment/son/OrderListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/SelectMealActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/WithDrawActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/pinganpay/PayB.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/EntityForSimple.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/MessageForSubBank.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/pingan/BankCardAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/BalanceActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_balance_mybalance.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/MyBankCardDetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/MyBankCard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayTypeDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/AddBankA.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_commodity_pay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_pay_bank.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/pingan/PayBankAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_pay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/ApiService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/TopUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderDetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyOrderDetails.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/pinganpay/PayA.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/CommodityPay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_order_pay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderPay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jyk_android_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jyk_android_dz" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="huawei-yal_al50-WQCDU19923007011" />
+    <property name="DEBUGGABLE_PROCESS" value="com.jyk.client" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="D:\jyk_android_dz\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../SdkForStudio" />
+    <property name="device.picker.selection" value="WQCDU19923007011" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XyppPro" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.4.1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jyk.client.utils.adapter.pingan" />
+      <recent name="com.jyk.client.utils.event" />
+      <recent name="com.jyk.client.utils.adapter" />
+      <recent name="com.jyk.client.utils.dialog" />
+      <recent name="com.jyk.client.mvp.view.activity.main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jyk_android_dz\app\src\main\res\layout" />
+      <recent name="D:\jyk_android_dz\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="D:\jyk_android_dz\app\src\main\java\com\jyk\client\utils\dialog" />
+      <recent name="D:\jyk_android_dz\app\src\main\java\com\jyk\client\utils\adapter\pingan" />
+      <recent name="D:\jyk_android_dz\app\src\main\java\com\jyk\client\network\bean\pingan" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jyk_android_dz:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jyk_android_dz:app [buildTinkerPatchRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildTinkerPatchRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.jyk_android_dz:app [assemble]" />
+      <item itemvalue="Gradle.jyk_android_dz:app [buildTinkerPatchRelease]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jyk_android_dz:app [assemble]" />
+        <item itemvalue="Gradle.jyk_android_dz:app [buildTinkerPatchRelease]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa6019dc-07b9-4cdb-ae4c-ca535053de3f" name="Default Changelist" comment="" />
+      <created>1573632516646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573632516646</updated>
+    </task>
+    <task id="LOCAL-00173" summary="#  3.4验收">
+      <created>1579175611529</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1579175611529</updated>
+    </task>
+    <task id="LOCAL-00174" summary="#  3.4验收">
+      <created>1579179419871</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1579179419871</updated>
+    </task>
+    <task id="LOCAL-00175" summary="#  3.4验收">
+      <created>1579182244970</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1579182244970</updated>
+    </task>
+    <task id="LOCAL-00176" summary="#  3.4验收">
+      <created>1579186108042</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1579186108042</updated>
+    </task>
+    <task id="LOCAL-00177" summary="#  3.4验收">
+      <created>1579239213954</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1579239213954</updated>
+    </task>
+    <task id="LOCAL-00178" summary="#  3.4验收">
+      <created>1579241240840</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241240840</updated>
+    </task>
+    <task id="LOCAL-00179" summary="#  3.4验收">
+      <created>1579244050130</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244050130</updated>
+    </task>
+    <task id="LOCAL-00180" summary="#  3.4验收">
+      <created>1579245694348</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1579245694348</updated>
+    </task>
+    <task id="LOCAL-00181" summary="#  3.4验收">
+      <created>1579248637263</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1579248637263</updated>
+    </task>
+    <task id="LOCAL-00182" summary="#  3.4验收">
+      <created>1579249919278</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1579249919278</updated>
+    </task>
+    <task id="LOCAL-00183" summary="# 3.5版本 v2.0.2 dev环境">
+      <created>1580877594865</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1580877594865</updated>
+    </task>
+    <task id="LOCAL-00184" summary="# 3.5版本 v2.0.2 dev环境">
+      <created>1581056785465</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1581056785465</updated>
+    </task>
+    <task id="LOCAL-00185" summary="# 3.5版本 v2.0.2 dev环境">
+      <created>1581236131065</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1581236131065</updated>
+    </task>
+    <task id="LOCAL-00186" summary="# 3.5版本 v2.0.2 dev环境">
+      <created>1581397118489</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1581397118489</updated>
+    </task>
+    <task id="LOCAL-00187" summary="# 3.5版本 v2.0.2 dev环境tab修改">
+      <created>1581402075736</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1581402075736</updated>
+    </task>
+    <task id="LOCAL-00188" summary="# 3.5版本 v2.0.2 dev环境tab修改">
+      <created>1581407129969</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1581407129970</updated>
+    </task>
+    <task id="LOCAL-00189" summary="# 3.5版本 v2.0.2 dev环境tab修改">
+      <created>1581412654504</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1581412654505</updated>
+    </task>
+    <task id="LOCAL-00190" summary="# 3.5版本 v2.0.2 dev环境tab修改">
+      <created>1581733816504</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1581733816504</updated>
+    </task>
+    <task id="LOCAL-00191" summary="# v2.0.3 dev环境">
+      <created>1581744045227</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1581744045227</updated>
+    </task>
+    <task id="LOCAL-00192" summary="# v2.0.3 dev环境">
+      <created>1581760249759</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1581760249759</updated>
+    </task>
+    <task id="LOCAL-00193" summary="# v2.0.3 dev环境">
+      <created>1581827446967</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1581827446967</updated>
+    </task>
+    <task id="LOCAL-00194" summary="# v2.0.3 dev环境">
+      <created>1581841145287</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1581841145287</updated>
+    </task>
+    <task id="LOCAL-00195" summary="# v2.0.3 dev环境">
+      <created>1581920987574</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1581920987575</updated>
+    </task>
+    <task id="LOCAL-00196" summary="# v2.0.4 dev环境">
+      <created>1582090476746</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1582090476746</updated>
+    </task>
+    <task id="LOCAL-00197" summary="# v2.0.4 dev环境">
+      <created>1582106379892</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1582106379892</updated>
+    </task>
+    <task id="LOCAL-00198" summary="# v2.0.4 dev环境">
+      <created>1582174964416</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1582174964416</updated>
+    </task>
+    <task id="LOCAL-00199" summary="# v2.0.4 dev环境">
+      <created>1582181087263</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1582181087263</updated>
+    </task>
+    <task id="LOCAL-00200" summary="# v2.0.4 dev环境">
+      <created>1582696684796</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1582696684796</updated>
+    </task>
+    <task id="LOCAL-00201" summary="# dzv2.0.5 dev环境">
+      <created>1582793182322</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1582793182322</updated>
+    </task>
+    <task id="LOCAL-00202" summary="# dzv2.0.5 dev环境">
+      <created>1582815675380</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1582815675380</updated>
+    </task>
+    <task id="LOCAL-00203" summary="# dzv2.0.5 dev环境">
+      <created>1582865571700</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1582865571700</updated>
+    </task>
+    <task id="LOCAL-00204" summary="# dzv2.0.6 dev环境">
+      <created>1583397512989</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1583397512990</updated>
+    </task>
+    <task id="LOCAL-00205" summary="# dzv2.0.6 dev环境">
+      <created>1583485545467</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1583485545467</updated>
+    </task>
+    <task id="LOCAL-00206" summary="# dzv2.0.6 dev环境">
+      <created>1583485653996</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1583485653996</updated>
+    </task>
+    <task id="LOCAL-00207" summary="# dzv2.0.6 dev环境">
+      <created>1583545981338</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1583545981338</updated>
+    </task>
+    <task id="LOCAL-00208" summary="# dzv2.0.6 dev环境">
+      <created>1583549704600</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1583549704600</updated>
+    </task>
+    <task id="LOCAL-00209" summary="# dzv2.0.6 dev环境">
+      <created>1583563579662</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1583563579662</updated>
+    </task>
+    <task id="LOCAL-00210" summary="# dzv2.0.6 dev环境">
+      <created>1583890965408</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1583890965408</updated>
+    </task>
+    <task id="LOCAL-00211" summary="# dzv2.0.6 dev环境">
+      <created>1583915696846</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1583915696846</updated>
+    </task>
+    <task id="LOCAL-00212" summary="# dzv2.0.6 dev环境">
+      <created>1583920544696</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1583920544697</updated>
+    </task>
+    <task id="LOCAL-00213" summary="# dzv2.0.6 dev环境">
+      <created>1583920776290</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1583920776291</updated>
+    </task>
+    <task id="LOCAL-00214" summary="# dzv2.0.6 dev环境">
+      <created>1583977580511</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1583977580511</updated>
+    </task>
+    <task id="LOCAL-00215" summary="# dzv2.0.6 dev环境">
+      <created>1583979977058</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1583979977058</updated>
+    </task>
+    <task id="LOCAL-00216" summary="# dzv2.0.6 dev环境">
+      <created>1583986987688</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1583986987688</updated>
+    </task>
+    <task id="LOCAL-00217" summary="# dzv2.0.6 dev环境">
+      <created>1583994027591</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1583994027591</updated>
+    </task>
+    <task id="LOCAL-00218" summary="# dzv2.0.6 dev环境">
+      <created>1584349933159</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1584349933159</updated>
+    </task>
+    <task id="LOCAL-00219" summary="# dzv2.0.7 dev环境">
+      <created>1584353166385</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1584353166385</updated>
+    </task>
+    <task id="LOCAL-00220" summary="# dzv2.0.7 dev环境">
+      <created>1584408861003</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1584408861003</updated>
+    </task>
+    <task id="LOCAL-00221" summary="# dzv2.0.7 dev环境">
+      <created>1584421363326</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1584421363326</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1932" height="1053" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.5006935" side_tool="true" weight="0.21634616" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49930653" visible="true" weight="0.21634616" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" weight="0.32959402" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Build Variants" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.86538464" weight="0.24017467" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49946582" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.12873931" side_tool="true" visible="true" weight="0.24672489" />
+      <window_info anchor="bottom" id="Gradle View" order="4" sideWeight="0.49946582" weight="0.32969433" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.8712607" visible="true" weight="0.24672489" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.838141" weight="0.2128821" />
+      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.8717949" weight="0.19213974" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32969433" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.7094017" weight="0.24126637" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" sideWeight="0.4871795" weight="0.23144105" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.15117522" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.2366453" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#开拍提醒" />
+    <MESSAGE value="#图片处理" />
+    <MESSAGE value="#寄拍字段" />
+    <MESSAGE value="#定制版 正式环境1.2.6" />
+    <MESSAGE value="#dev" />
+    <MESSAGE value="#统计" />
+    <MESSAGE value="#ui" />
+    <MESSAGE value="#提测" />
+    <MESSAGE value="#热更新" />
+    <MESSAGE value="#bug修改" />
+    <MESSAGE value="# 修改订单数据刷新逻辑" />
+    <MESSAGE value="# 3.3提测" />
+    <MESSAGE value="# 1404" />
+    <MESSAGE value="# 1406" />
+    <MESSAGE value="# 1.2.9" />
+    <MESSAGE value="#  一键登录 单点登录样式 断网重连机制 今日结拍" />
+    <MESSAGE value="#  3.4版本提测" />
+    <MESSAGE value="#  3.4验收" />
+    <MESSAGE value="# 3.5版本 v2.0.2 dev环境" />
+    <MESSAGE value="# 3.5版本 v2.0.2 dev环境tab修改" />
+    <MESSAGE value="# v2.0.3 dev环境" />
+    <MESSAGE value="# v2.0.4 dev环境" />
+    <MESSAGE value="# dzv2.0.5 dev环境" />
+    <MESSAGE value="# dzv2.0.6 dev环境" />
+    <MESSAGE value="# dzv2.0.7 dev环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="# dzv2.0.7 dev环境" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/receiver/PushMessageReceiver.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/receiver/PushMessageReceiver.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/receiver/PushMessageReceiver.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/receiver/PushMessageReceiver.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/pinganpay/PayB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/app_bank_unbind.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_banka.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/EntityForSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="1603" column="5" lean-forward="true" selection-start-line="1603" selection-start-column="5" selection-end-line="1603" selection-end-column="5" />
+          <folding>
+            <element signature="e#28728#28729#0" expanded="true" />
+            <element signature="e#28759#28760#0" expanded="true" />
+            <element signature="e#28798#28799#0" expanded="true" />
+            <element signature="e#28833#28834#0" expanded="true" />
+            <element signature="e#28873#28874#0" expanded="true" />
+            <element signature="e#28909#28910#0" expanded="true" />
+            <element signature="e#29067#29068#0" expanded="true" />
+            <element signature="e#29097#29098#0" expanded="true" />
+            <element signature="e#29135#29136#0" expanded="true" />
+            <element signature="e#29169#29170#0" expanded="true" />
+            <element signature="e#29203#29204#0" expanded="true" />
+            <element signature="e#29233#29234#0" expanded="true" />
+            <element signature="e#29267#29268#0" expanded="true" />
+            <element signature="e#29297#29298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/CityBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/MessageForBank.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/MessageForCity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/SubBankBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/BankBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/bean/pingan/MessageForSubBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/UnbandCardDialog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/event/CloseBandPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_balance_mybalance.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="324" column="50" selection-end-line="466" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="818" column="69" selection-start-line="818" selection-start-column="59" selection-end-line="818" selection-end-column="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/BalanceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="164" column="35" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bank_card.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/AddBankC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_bank_card.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/AddBankB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/UnBandCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="120" column="39" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pay_banka.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/WithDrawActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="174" column="25" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/MyBankCardDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+          <folding>
+            <element signature="e#2925#2926#0" expanded="true" />
+            <element signature="e#2958#2959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/MyBankCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+          <folding>
+            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#4753#4754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/AddBankA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+          <folding>
+            <element signature="e#2972#2973#0" expanded="true" />
+            <element signature="e#3005#3006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="74" column="53" lean-forward="true" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/zffs_zfb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_pay_bank.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#3596#3615#0" expanded="true" />
+            <element signature="e#3962#3981#0" expanded="true" />
+            <element signature="e#4552#4571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_blow_bank.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/pingan/BlowBankAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/pingan/BankCardAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/adapter/pingan/PayBankAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+            <element signature="e#3511#3512#0" expanded="true" />
+            <element signature="e#3543#3544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BankAddDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_pay.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="225" column="40" selection-start-line="225" selection-start-column="40" selection-end-line="225" selection-end-column="40" />
+          <folding>
+            <element signature="e#2551#4216#0" />
+            <element signature="e#4243#5917#0" />
+            <element signature="e#5944#7225#0" />
+            <element signature="e#7253#8489#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/balance/TopUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="372" column="137" lean-forward="true" selection-start-line="372" selection-start-column="23" selection-end-line="372" selection-end-column="137" />
+          <folding>
+            <element signature="e#2621#3747#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#5608#5609#0" expanded="true" />
+            <element signature="e#5640#5641#0" expanded="true" />
+            <element signature="e#5688#5689#0" expanded="true" />
+            <element signature="e#5721#5722#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+            <element signature="e#5844#5845#0" expanded="true" />
+            <element signature="e#5877#5878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_orderdetails.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order_message.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="175" column="40" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/MyOrderDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="460" column="41" lean-forward="true" selection-start-line="460" selection-start-column="41" selection-end-line="460" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/pinganbank/pinganpay/PayA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/scoreshop/CommodityPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="299" selection-start-line="285" selection-start-column="7" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12528">
+          <caret line="848" column="46" selection-start-line="848" selection-start-column="46" selection-end-line="848" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayDialog1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1312">
+          <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_pay1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/network/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5008">
+          <caret line="339" column="40" selection-start-line="339" selection-start-column="27" selection-end-line="339" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_order_pay.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3584">
+          <caret line="224" column="70" selection-start-line="224" selection-start-column="70" selection-end-line="224" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_commodity_pay.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9520">
+          <caret line="636" column="56" selection-start-line="628" selection-start-column="22" selection-end-line="636" selection-end-column="56" />
+          <folding>
+            <element signature="e#25908#28166#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/mvp/view/activity/mine/order/OrderDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14560">
+          <caret line="978" column="41" selection-start-line="978" selection-start-column="41" selection-end-line="978" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jyk/client/utils/dialog/BelowPayTypeDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

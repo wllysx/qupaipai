@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            >
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_close"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/zffs_gb"/>
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择提现账号"
+                android:textColor="#ff262626"
+                android:textSize="@dimen/textsize15"
+                />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_sure"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认"
+                android:textColor="#ff6c6c6c"
+                android:textSize="@dimen/textsize14"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"/>
+
+
+        <!--微信-->
+        <LinearLayout
+            android:id="@+id/ll_pay1"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_marginRight="13dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/icon_wx_pay"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信支付"
+                    android:textColor="@color/textcolor7"
+                    android:textSize="@dimen/textsize14"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tv_wxname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="陈*钟"
+                    android:textColor="#777777"
+                    android:textSize="@dimen/textsize10"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--支付宝-->
+        <LinearLayout
+            android:id="@+id/ll_pay2"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_marginRight="13dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/icon_ali_pay"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝"
+                    android:textColor="@color/textcolor7"
+                    android:textSize="@dimen/textsize14"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_aliname"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="陈*钟"
+                    android:textColor="#777777"
+                    android:textSize="@dimen/textsize10"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

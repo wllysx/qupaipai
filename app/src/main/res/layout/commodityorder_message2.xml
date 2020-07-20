@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单信息"
+        android:textColor="@color/textcolor7"
+        android:textSize="@dimen/textsize12"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_order_no"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_orderno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号：100630180637739257"
+            android:textColor="@color/textcolor18"
+            android:textSize="@dimen/textsize12"
+            />
+        <TextView
+            android:id="@+id/tv_copy"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="复制"
+            android:textColor="@color/blue1"
+            android:textSize="@dimen/textsize11"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_order_contract"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="寄拍合同：100630180637739223"
+            android:textColor="@color/textcolor18"
+            android:textSize="@dimen/textsize12"
+            />
+        <TextView
+            android:id="@+id/tv_see"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看"
+            android:textColor="@color/blue1"
+            android:textSize="@dimen/textsize11"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_order_time"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下单时间：2019-05-09 19:31:12"
+        android:textColor="@color/textcolor18"
+        android:textSize="@dimen/textsize12"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_order_paytime"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="付款时间：2019-05-09 19:31:12"
+        android:textColor="@color/textcolor18"
+        android:textSize="@dimen/textsize12"
+        />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_order_fahuo"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发货时间：2019-05-09 19::31:21"
+        android:textColor="@color/textcolor18"
+        android:textSize="@dimen/textsize12"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_order_chengjiao"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成交时间：2019-05-09 19:31:21"
+        android:textColor="@color/textcolor18"
+        android:textSize="@dimen/textsize12"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_order_close"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭时间：2019-05-09 19::31:21"
+        android:textColor="@color/textcolor18"
+        android:textSize="@dimen/textsize12"
+        />
+
+
+
+
+
+</LinearLayout>

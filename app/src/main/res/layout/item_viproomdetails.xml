@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:background="@drawable/bg_corner_bgmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="0dp">
+
+                <com.gcssloop.widget.RCImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:round_corner="7dp"
+                    android:src="@color/line"
+                    android:scaleType="centerCrop"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_commoditytitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:text="紫泥 半手工 紫砂壶茶具紫泥 半手工 紫砂壶茶具"
+                        android:textColor="@color/textcolor7"
+                        android:textSize="@dimen/textsize14" />
+
+                    <TextView
+                        android:id="@+id/tv_states"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="已结束"
+                        android:textColor="#525252"
+                        android:textSize="@dimen/textsize15" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="结束时间：09:30"
+                    android:textColor="@color/yellow2"
+                    android:textSize="@dimen/textsize13" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_pricetype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="成交价："
+                        android:textColor="@color/textcolor16"
+                        android:textSize="@dimen/textsize14" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:id="@+id/tv_price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="700.00"
+                            android:textColor="@color/textcolor16"
+                            android:textSize="@dimen/textsize14" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/tv_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="80次出价"
+                            android:textColor="#ffa2a2a2"
+                            android:textSize="@dimen/textsize12"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

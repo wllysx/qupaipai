@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_meal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="17dp"
+    android:paddingRight="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="赠品"
+            android:textColor="@color/iscur"
+            android:textSize="@dimen/textsize15" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_selectmeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重新选择"
+            android:textColor="#ff2872e2"
+            android:textSize="@dimen/textsize13" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tv_meal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/textcolor7"
+                    android:textSize="@dimen/textsize13" />
+            </LinearLayout>
+
+            <com.qupp.client.utils.view.FullListview
+                android:id="@+id/lv_meal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/line"
+                android:dividerHeight="1dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:listSelector="@android:color/transparent"></com.qupp.client.utils.view.FullListview>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_selectmeal"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="您还未选择赠品，请先去选择赠品"
+            android:drawableRight="@mipmap/icon_right"
+            android:textColor="#ff5a5a5a"
+            android:textSize="13sp"
+            />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

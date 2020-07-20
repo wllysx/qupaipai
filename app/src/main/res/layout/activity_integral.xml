@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9955">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#ff9955">
+
+            <FrameLayout
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_back_white" />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize16" />
+
+        </RelativeLayout>
+
+
+        <com.liaoinstan.springview.widget.SpringView
+            android:id="@+id/springviewtop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/appbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_main"
+                    android:fitsSystemWindows="false"
+                    app:elevation="0dp"
+                    app:layout_scrollFlags="scroll|enterAlways">
+
+                    <com.google.android.material.appbar.CollapsingToolbarLayout
+                        android:id="@+id/collapsingToolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/wdjf_bg"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="42"
+                                    android:gravity="right|center_vertical">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@mipmap/wdjf" />
+
+                                        <TextView
+                                            android:id="@+id/tv_totalintegral"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="14dp"
+                                            android:includeFontPadding="false"
+                                            android:text="0"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/textsize36"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/tv_duihuan"
+                                        android:layout_width="60dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_marginTop="18dp"
+                                        android:background="@drawable/app_line_white_13"
+                                        android:gravity="center"
+                                        android:paddingTop="5dp"
+                                        android:paddingBottom="5dp"
+                                        android:text="兑换"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textsize14" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="84" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="23dp">
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="@dimen/textsize15"
+                                            android:textColor="@color/white"
+                                            android:text="超值积分："
+                                            />
+                                        <TextView
+                                            android:id="@+id/tv_integral"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="@dimen/textsize18"
+                                            android:text="0"
+                                            android:textStyle="bold"
+                                            android:textColor="@color/white"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="@dimen/textsize15"
+                                            android:textColor="@color/white"
+                                            android:text="积分："
+                                            />
+                                        <TextView
+                                            android:id="@+id/tv_superintegral"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="@dimen/textsize18"
+                                            android:text="0"
+                                            android:textStyle="bold"
+                                            android:textColor="@color/white"
+                                            />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center_vertical">
+
+                                <TextView
+                                    android:id="@+id/tv_guize"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_guize"
+                                    android:paddingLeft="12dp"
+                                    android:paddingTop="3dp"
+                                    android:paddingRight="12dp"
+                                    android:paddingBottom="3dp"
+                                    android:text="兑换规则"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textsize14" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                    <net.lucode.hackware.magicindicator.MagicIndicator
+                        android:id="@+id/magic_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/white" />
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_main"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                </FrameLayout>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </com.liaoinstan.springview.widget.SpringView>
+
+    </LinearLayout>
+
+</FrameLayout>

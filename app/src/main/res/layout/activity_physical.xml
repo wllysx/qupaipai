@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_item" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_corner_graw"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.gcssloop.widget.RCImageView
+                            android:id="@+id/iv_logo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@color/line"
+                            app:round_corner="7dp" />
+
+                        <TextView
+                            android:id="@+id/tv_states"
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_corner_black"
+                            android:gravity="center"
+                            android:text="共1件商品"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize11" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_orderno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订单编号："
+                        android:textColor="#ff575758"
+                        android:textSize="@dimen/textsize12" />
+
+                    <TextView
+                        android:id="@+id/tv_kdname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginBottom="13dp"
+                        android:text="物流公司："
+                        android:textColor="#ff575758"
+                        android:textSize="@dimen/textsize12" />
+
+                    <TextView
+                        android:id="@+id/tv_kdcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="物流单号："
+                        android:textColor="#ff575758"
+                        android:textSize="@dimen/textsize12" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--列表-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

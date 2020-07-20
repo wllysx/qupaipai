@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_item" />
+
+        <LinearLayout
+            android:id="@+id/ll_topview"
+            android:layout_below="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@color/bg_main"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您目前账户余额为："
+                android:textColor="#ff434244"
+                android:textSize="@dimen/textsize15" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0.00元"
+                android:textColor="@color/iscur"
+                android:textSize="@dimen/textsize15" />
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_select"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="筛选"
+                    android:textColor="#ff535353"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/sx_xl"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_below="@+id/ll_topview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main">
+            <include layout="@layout/default_type2"/>
+        <com.liaoinstan.springview.widget.SpringView
+            android:id="@+id/springview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:overScrollMode="never"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#ffff0000"
+                android:dividerHeight="10dp" />
+        </com.liaoinstan.springview.widget.SpringView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:id="@+id/ll_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_angel"/>
+            <LinearLayout
+                android:background="@drawable/bg_corner_white_contour"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_type1"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="全部"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView
+                    android:id="@+id/tv_type2"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="充值"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView
+                    android:id="@+id/tv_type3"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="提现"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView
+                    android:id="@+id/tv_type4"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="收益"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView android:id="@+id/tv_type5"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="退款"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView
+                    android:id="@+id/tv_type6"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="支付"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+                <TextView
+                    android:id="@+id/tv_type7"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="13dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="其他"
+                    android:textColor="#ff434343"
+                    android:textSize="@dimen/textsize14"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

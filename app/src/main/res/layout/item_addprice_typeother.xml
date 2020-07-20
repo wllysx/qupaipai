@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="45dp"
+        android:layout_height="47dp">
+
+        <com.gcssloop.widget.RCImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="40.5dp"
+            android:layout_height="40.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/icon_tx_default"
+            app:clip_background="true"
+            app:round_as_circle="true" />
+        <ImageView
+            android:id="@+id/iv_hg"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_hg"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="嗯哼嗯哼"
+                android:textColor="#ff888787"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_markupTimeString"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:text="06-29 16:00:00"
+                android:textColor="#ff7e7e7e"
+                android:textSize="@dimen/textsize11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_addprice_other"
+            android:paddingLeft="16dp"
+            android:paddingTop="14dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="14dp">
+
+            <TextView
+                android:id="@+id/tv_payPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出价：￥3900"
+                android:textColor="#ffe7b363"
+                android:textSize="@dimen/textsize14" />
+
+            <LinearLayout
+                android:id="@+id/ll_hongbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_huo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="获"
+                    android:textColor="#ffe7b363"
+                    android:textSize="@dimen/textsize14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@mipmap/hongb" />
+
+                <TextView
+                    android:id="@+id/tv_brokerage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥10"
+                    android:textColor="#ffe7b363"
+                    android:textSize="@dimen/textsize14" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

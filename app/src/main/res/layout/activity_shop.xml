@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rl_title"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/white">
+
+            <FrameLayout
+                android:id="@+id/back"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/fh"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_search"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/bg_edit_solidgraw"
+                android:textColor="@color/textcolor7"
+                android:hint="好物尽在商城"
+                android:textColorHint="#9f9e9e"
+                android:textSize="@dimen/textsize14"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:imeOptions="actionSearch"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@mipmap/sousuo"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main">
+
+            <com.liaoinstan.springview.widget.SpringView
+                android:id="@+id/springview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <com.qupp.client.utils.waterfall.StaggeredGridView
+            android:scrollbars="none"
+            app:item_margin="10dp"
+            app:column_count="2"
+            android:cacheColorHint="#00000000"
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            </com.liaoinstan.springview.widget.SpringView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_totop"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/icon_totop"/>
+</RelativeLayout>
