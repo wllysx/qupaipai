@@ -347,6 +347,7 @@ public class MainActivity extends BaseActivity {
     }
 
 
+
     /**
      * @return
      * @important 使用请求版本功能，可以在这里设置downloadUrl
